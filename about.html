@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/png" href="images/favicon-64x64.png">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>My Webpage</title>
+    </head>
+
+    <body>
+        <nav class="nav nav-pills flex-column flex-sm-row">
+            <a class="flex-sm-fill text-sm-center nav-link" href="index.html">Home</a>
+            <a class="flex-sm-fill text-sm-center nav-link active" aria-current="page" href="about.html">About Me</a>
+            <a class="flex-sm-fill text-sm-center nav-link" href="hobby.html">Hobbies</a>
+            <a class="flex-sm-fill text-sm-center nav-link" href="gallery.html">Gallery</a>
+        </nav>
+        <h1 class="heading">About Me</h1>
+        <p class="subtitle">
+            Here you’ll find a bit about my background, the goals I’m working toward, some of the skills I’ve picked up
+            along the way, and fun facts that make me who I am.
+        </p>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        Background
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>I grew up in Alexandria, Egypt.</strong> I graduated from El Quds International School
+                        in 2023 before being
+                        accepted into the Faculty of Engineering at Alexandria University. From a young age, I’ve had a
+                        strong
+                        interest in Mathematics and Physics, along with a curiosity about programming, coding, and the
+                        many fields
+                        of computer science. After completing my first year at university, I decided to major in
+                        Mechatronics, as
+                        I wanted to learn more about robot mechanisms, programming, and the control of robotic systems.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Goals
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        My goal is to develop a wide range of skills and take as many courses as possible to prepare
+                        myself for the
+                        job market after graduation. In the near future, I plan to take CS50’s <i>Introduction to
+                            Artificial Intelligence
+                            with Python</i> to deepen my understanding of machine learning and gain experience designing
+                        intelligent systems.
+                        Looking ahead, my long-term goal is to build a career as either a freelance programmer or an AI
+                        engineer,
+                        where I can apply my knowledge to solve real-world problems and continue growing in the
+                        ever-evolving field of technology.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Strengths/Skills
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        One of my strengths is having a strong memory. I can usually remember important information, as
+                        well as events and dates from things I’ve experienced, which is quite useful. I also enjoy
+                        problem-solving and figuring out different ways to tackle challenges. On top of that, I like
+                        being creative, whether it’s designing an outfit or building a webpage, I enjoy making
+                        things visually appealing and presentable.
+                        <br><br>
+                        Through university and CS50, I’ve also picked up some technical skills. So far, I’ve learned
+                        coding in <strong>C</strong> and <strong>Python</strong>, working with <strong>SQL databases</strong>
+                        , and building websites with <strong>HTML, CSS, and JavaScript.</strong>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        Inspirations/Fun Facts
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        I've always been inspired by my amazing parents who are also engineers. They helped me find my
+                        passion and
+                        the path I want to follow. I would also be completely lost without my friends who always support
+                        and
+                        encourage me to keep going, spending my university days with them makes everything so much more
+                        fun
+                        and memorable.<br>
+                        As for a fun fact: I really enjoy surprising people with gifts or making something special for
+                        them that I know
+                        they’ll love. It’s one of my favorite ways to make others happy.
+                        <br><br>
+                        Here's a quote that always inspired me and proved to be right time and time again:<br>
+                        <code>"if you fail to plan, you plan to fail."</code><br>
+                        <i>-Benjamin Franklin</i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button id="hobby-btn" class="cute-btn">💡 Click for a fun fact</button>
+        <p id="hobby-fact" class="fact-text mt-2"></p>
+        <script>
+            const facts = [
+                "📚 I used to love reading the Harry Potter book series.",
+                "🏰 I once spent 6 hours building a house in minecraft.",
+                "🧶 The first thing I crocheted was a blue rose!",
+                "✍️ I used to draw realistic portraits of people!"
+            ];
+            document.getElementById("hobby-btn").addEventListener("click", function() {
+                const random = facts[Math.floor(Math.random() * facts.length)];
+                document.getElementById("hobby-fact").textContent = random;
+            });
+        </script>
+    </body>
+
+</html>
